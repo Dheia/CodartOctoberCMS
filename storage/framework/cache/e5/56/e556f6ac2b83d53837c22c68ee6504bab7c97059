@@ -1,0 +1,203 @@
+1602705153a:1:{s:10:"footer.htm";a:5:{s:8:"fileName";s:10:"footer.htm";s:7:"content";s:5434:"<footer class="footer" id="contact">
+    <div class="container">
+        <div class="footer__inner">
+            <div class="works__item works__item--footer">
+                <div class="about__toptext about__toptext--works"><p>Контакты и заявка</p></div>
+                <h2 class="about__title">Есть проект который хочешь реализовать? Оставь заявку и мы поможем</h2>
+                {% component 'contenteditor' file="footer/text.htm" fixture="div"  class="about__text about__text--answer" %}
+                <div class="intro__socials intro__socials--answer">
+                    <a target="_blank" href="https://www.instagram.com/codart.pro/" class="social__link">
+                        <svg>
+                            <use xlink:href="#instagram"></use>
+                        </svg>
+                    </a>
+                    <a target="_blank" href="tg://resolve?domain=pro_codart" class="social__link">
+                        <svg>
+                            <use xlink:href="#telegram"></use>
+                        </svg>
+                    </a>
+                    <a target="_blank" href="viber://add?number=+380636924438" class="social__link">
+                        <svg>
+                            <use xlink:href="#viber"></use>
+                        </svg>
+                    </a>
+                    <a target="_blank" href="tel:+380636924438" class="social__link">
+                        <svg>
+                            <use xlink:href="#whatsapp"></use>
+                        </svg>
+                    </a>
+                    <a target="_blank" href="https://www.facebook.com/pro.codart/?modal=admin_todo_tour" class="social__link">
+                        <svg>
+                            <use xlink:href="#facebook"></use>
+                        </svg>
+                    </a>
+                </div>
+                <a href="tel:+380995582290" class="about__tel about__tel--works">+38 (099) 55 822 90</a>
+                <a href="mailto:example@mail.com" class="about__mail about__mail--works">example@mail.com
+                    <svg>
+                        <use xlink:href="#arrow"></use>
+                    </svg>
+                </a>
+            </div>
+            <div class="footer__item">
+                <form action="" method="post" class="form">
+                    <!-- Hidden Required Fields -->
+                    <input type="hidden" name="project_name" value="Codart">
+                    <input type="hidden" name="admin_email" value="guk2001y@gmail.com">
+                    <input type="hidden" name="form_subject" value="Заявка с сайта Codart">
+                    <!-- END Hidden Required Fields -->
+
+                    <label for="name">Ваше имя</label>
+                    <input  id="name" type="text" placeholder="Ваше имя" class="footer__input" required autocomplete="on">
+
+                    <label for="email">Ваш email</label>
+                    <input id="email" type="email" placeholder="Ваш email" class="footer__input" required autocomplete="on">
+
+                    <label for="textarea">Какая задача вас интересует?</label>
+                    <input id="textarea" type="text" placeholder="Какая задача вас интересует?" class="footer__input">
+
+                    <button type="submit" class="form__btn"><span>Отправить</span>
+                        <svg>
+                            <use xlink:href="#arrow"></use>
+                        </svg>
+                    </button>
+                </form>
+                {% component 'contenteditor' file="footer/brieftext.htm" fixture="div"  class="footer__brief--text" %}
+                <a target="_blank" href="#" class="brief__btn"><span>Бриф для заполнения</span>
+                    <svg>
+                        <use xlink:href="#arrow"></use>
+                    </svg>
+                </a>
+            </div>
+        </div>
+        <a href="#" class="footer__logo" data-scroll="#intro"><img src="{{ 'assets/images/footerlogo.png'|theme }}" alt=""></a>
+        <div class="intro__socials intro__socials--footer">
+            <a target="_blank" href="https://www.instagram.com/codart.pro/" class="social__link">
+                <svg>
+                    <use xlink:href="#instagram"></use>
+                </svg>
+            </a>
+            <a target="_blank" href="tg://resolve?domain=pro_codart" class="social__link">
+                <svg>
+                    <use xlink:href="#telegram"></use>
+                </svg>
+            </a>
+            <a target="_blank" href="viber://add?number=+380636924438" class="social__link">
+                <svg>
+                    <use xlink:href="#viber"></use>
+                </svg>
+            </a>
+            <a target="_blank" href="tel:+380636924438" class="social__link">
+                <svg>
+                    <use xlink:href="#whatsapp"></use>
+                </svg>
+            </a>
+            <a target="_blank" href="https://www.facebook.com/pro.codart/?modal=admin_todo_tour" class="social__link">
+                <svg>
+                    <use xlink:href="#facebook"></use>
+                </svg>
+            </a>
+        </div>
+    </div>
+</footer>";s:5:"mtime";i:1602689718;s:6:"markup";s:5434:"<footer class="footer" id="contact">
+    <div class="container">
+        <div class="footer__inner">
+            <div class="works__item works__item--footer">
+                <div class="about__toptext about__toptext--works"><p>Контакты и заявка</p></div>
+                <h2 class="about__title">Есть проект который хочешь реализовать? Оставь заявку и мы поможем</h2>
+                {% component 'contenteditor' file="footer/text.htm" fixture="div"  class="about__text about__text--answer" %}
+                <div class="intro__socials intro__socials--answer">
+                    <a target="_blank" href="https://www.instagram.com/codart.pro/" class="social__link">
+                        <svg>
+                            <use xlink:href="#instagram"></use>
+                        </svg>
+                    </a>
+                    <a target="_blank" href="tg://resolve?domain=pro_codart" class="social__link">
+                        <svg>
+                            <use xlink:href="#telegram"></use>
+                        </svg>
+                    </a>
+                    <a target="_blank" href="viber://add?number=+380636924438" class="social__link">
+                        <svg>
+                            <use xlink:href="#viber"></use>
+                        </svg>
+                    </a>
+                    <a target="_blank" href="tel:+380636924438" class="social__link">
+                        <svg>
+                            <use xlink:href="#whatsapp"></use>
+                        </svg>
+                    </a>
+                    <a target="_blank" href="https://www.facebook.com/pro.codart/?modal=admin_todo_tour" class="social__link">
+                        <svg>
+                            <use xlink:href="#facebook"></use>
+                        </svg>
+                    </a>
+                </div>
+                <a href="tel:+380995582290" class="about__tel about__tel--works">+38 (099) 55 822 90</a>
+                <a href="mailto:example@mail.com" class="about__mail about__mail--works">example@mail.com
+                    <svg>
+                        <use xlink:href="#arrow"></use>
+                    </svg>
+                </a>
+            </div>
+            <div class="footer__item">
+                <form action="" method="post" class="form">
+                    <!-- Hidden Required Fields -->
+                    <input type="hidden" name="project_name" value="Codart">
+                    <input type="hidden" name="admin_email" value="guk2001y@gmail.com">
+                    <input type="hidden" name="form_subject" value="Заявка с сайта Codart">
+                    <!-- END Hidden Required Fields -->
+
+                    <label for="name">Ваше имя</label>
+                    <input  id="name" type="text" placeholder="Ваше имя" class="footer__input" required autocomplete="on">
+
+                    <label for="email">Ваш email</label>
+                    <input id="email" type="email" placeholder="Ваш email" class="footer__input" required autocomplete="on">
+
+                    <label for="textarea">Какая задача вас интересует?</label>
+                    <input id="textarea" type="text" placeholder="Какая задача вас интересует?" class="footer__input">
+
+                    <button type="submit" class="form__btn"><span>Отправить</span>
+                        <svg>
+                            <use xlink:href="#arrow"></use>
+                        </svg>
+                    </button>
+                </form>
+                {% component 'contenteditor' file="footer/brieftext.htm" fixture="div"  class="footer__brief--text" %}
+                <a target="_blank" href="#" class="brief__btn"><span>Бриф для заполнения</span>
+                    <svg>
+                        <use xlink:href="#arrow"></use>
+                    </svg>
+                </a>
+            </div>
+        </div>
+        <a href="#" class="footer__logo" data-scroll="#intro"><img src="{{ 'assets/images/footerlogo.png'|theme }}" alt=""></a>
+        <div class="intro__socials intro__socials--footer">
+            <a target="_blank" href="https://www.instagram.com/codart.pro/" class="social__link">
+                <svg>
+                    <use xlink:href="#instagram"></use>
+                </svg>
+            </a>
+            <a target="_blank" href="tg://resolve?domain=pro_codart" class="social__link">
+                <svg>
+                    <use xlink:href="#telegram"></use>
+                </svg>
+            </a>
+            <a target="_blank" href="viber://add?number=+380636924438" class="social__link">
+                <svg>
+                    <use xlink:href="#viber"></use>
+                </svg>
+            </a>
+            <a target="_blank" href="tel:+380636924438" class="social__link">
+                <svg>
+                    <use xlink:href="#whatsapp"></use>
+                </svg>
+            </a>
+            <a target="_blank" href="https://www.facebook.com/pro.codart/?modal=admin_todo_tour" class="social__link">
+                <svg>
+                    <use xlink:href="#facebook"></use>
+                </svg>
+            </a>
+        </div>
+    </div>
+</footer>";s:4:"code";N;}}
